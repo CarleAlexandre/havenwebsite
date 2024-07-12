@@ -1,0 +1,51 @@
+
+/*Navbar height is 49px*/
+.menubar ul{
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+	background-color: #3498db;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.menubar li {
+	color: var(--color-fg);
+	float: left;
+	text-decoration: none;
+}
+
+.menubar li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.menubar li a:hover {
+	color: black;
+	background-color: #f19388bd;
+}
+
+.menubar .Theme {
+	float: right;
+}
+
+.menubar #changeColor {	
+	font-family: Orbitron, sans-serif;
+	display: block;
+	color: var(--color-fg);
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	border: none;
+	background: none;
+}
+
+.content {
+	padding: 100px 0px;
+
+}
